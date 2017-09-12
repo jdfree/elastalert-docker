@@ -1,7 +1,7 @@
 FROM alpine:3.5
 
 # URL from which to download Elastalert.
-ENV ELASTALERT_VERSION 0.1.6
+ENV ELASTALERT_VERSION 0.1.20
 ENV ELASTALERT_URL https://github.com/Yelp/elastalert/archive/v${ELASTALERT_VERSION}.zip
 
 # Directory holding configuration for Elastalert and Supervisor.
